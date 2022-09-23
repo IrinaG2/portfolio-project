@@ -23,6 +23,10 @@ h3 {
   font-size: 40px;
   font-weight: normal;
 }
+p {
+  font-size: 25px;
+  opacity: 0.7;
+}
 .btn-customised {
   font-size: 20px;
   font-weight: bold;
@@ -31,7 +35,6 @@ h3 {
   background-color: var(--primary-color);
   padding: 10px 15px;
 }
-.btn-customised:hover {
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
+.coffee-img {
+  max-width: 60%;
 }
