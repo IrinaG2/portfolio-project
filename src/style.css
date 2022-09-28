@@ -38,3 +38,11 @@ p {
 .coffee-img {
   max-width: 60%;
 }
+@media (max-width: 900px) {
+  .hero {
+    padding: 80px 10px;
+  }
+  h1 {
+    font-size: 76px;
+  }
+}
