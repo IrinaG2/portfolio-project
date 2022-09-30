@@ -38,6 +38,22 @@ p {
 .coffee-img {
   max-width: 60%;
 }
+.about-hero {
+  padding: 120px 20px;
+}
+.about-hero h1 {
+  font-size: 80px;
+}
+.about-hero h2 {
+  font-size: 30px;
+}
+.about-hero p {
+  font-size: 25px;
+}
+
+.portfolio-picture {
+  max-width: 70%;
+}
 @media (max-width: 900px) {
   .hero {
     padding: 80px 10px;
