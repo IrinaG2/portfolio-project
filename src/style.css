@@ -53,12 +53,17 @@ p {
 
 .portfolio-picture {
   max-width: 70%;
+  margin-left: 100px;
 }
 @media (max-width: 900px) {
+  h1 {
+    font-size: 76px;
+  }
   .hero {
     padding: 80px 10px;
   }
-  h1 {
-    font-size: 76px;
+  .portfolio-picture {
+    margin: 20px 0;
+    text-align: center;
   }
 }
