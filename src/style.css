@@ -38,16 +38,16 @@ p {
 .coffee-img {
   max-width: 60%;
 }
-.about-hero {
+.content-container {
   padding: 120px 20px;
 }
-.about-hero h1 {
+.content-container h1 {
   font-size: 80px;
 }
-.about-hero h2 {
+.content-container h2 {
   font-size: 30px;
 }
-.about-hero p {
+.content-container p {
   font-size: 25px;
 }
 
