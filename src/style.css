@@ -25,6 +25,9 @@ h3 {
   font-weight: normal;
   text-align: center;
 }
+h4 {
+  font-size: 48px;
+}
 p {
   font-size: 25px;
   opacity: 0.7;
@@ -84,9 +87,45 @@ nav a:hover {
 nav li.active a {
   font-weight: bold;
 }
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  font-size: 24px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+footer .email-link:hover {
+  text-decoration: underline;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 76px;
+  }
+  h4 {
+    font-size: 20px;
   }
   .hero {
     padding: 80px 10px;
@@ -94,5 +133,11 @@ nav li.active a {
   .portfolio-picture {
     margin: 20px 0;
     text-align: center;
+  }
+  footer .contact-box {
+    padding: 30px 120px;
+  }
+  footer .contact-box p {
+    font-size: 18px;
   }
 }
