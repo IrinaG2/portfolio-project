@@ -11,7 +11,7 @@ body {
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 h1 {
   font-size: 96px;
@@ -44,7 +44,7 @@ p {
   max-width: 60%;
 }
 .content-container {
-  padding: 120px 20px;
+  padding: 60px 20px;
 }
 .content-container h1 {
   font-size: 80px;
