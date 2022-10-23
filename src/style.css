@@ -32,6 +32,7 @@ p {
   font-size: 25px;
   opacity: 0.7;
 }
+
 .btn-customised {
   font-size: 20px;
   font-weight: bold;
@@ -122,11 +123,12 @@ footer .social-links a:hover {
 }
 @media (max-width: 900px) {
   h1 {
-    font-size: 76px;
+    font-size: 60px;
   }
   h4 {
     font-size: 20px;
   }
+
   .hero {
     padding: 80px 10px;
   }
